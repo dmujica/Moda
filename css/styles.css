@@ -1,0 +1,23 @@
+/* Orbit Slider */
+
+.orbit-slide-number,  
+.orbit-prev,
+.orbit-next {
+	display: none;
+}
+
+.orbit-bullets-container {
+	position: absolute;
+	background: red;
+	top: 91%;
+	left: 50%;
+	z-index: 999;
+}
+
+#slider {
+	max-width: 90rem;
+}
+
+.slider {
+	padding: 0;
+}
