@@ -3,15 +3,25 @@ body {
 	background: url(../img/bg.jpg);
 }
 
+.list li,
+.list a {
+	list-style: none;
+	text-decoration: none;
+	display: inline;
+	color: black;
+}
+
 /*nav*/
 nav {
 	position: absolute;
 	width: 100%;
 	height: 120px;
 	background: url(../img/bg.jpg);
-	opacity: .3;
+	
 	z-index: 9999;
 }
+
+
 
 /* Orbit Slider */
 
