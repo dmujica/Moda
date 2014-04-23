@@ -1,9 +1,25 @@
+/*Global*/
+body {
+	background: url(../img/bg.jpg);
+}
+
+/*nav*/
+nav {
+	position: absolute;
+	width: 100%;
+	height: 120px;
+	background: url(../img/bg.jpg);
+	opacity: .3;
+	z-index: 9999;
+}
+
 /* Orbit Slider */
 
 .orbit-slide-number,  
 .orbit-prev,
-.orbit-next {
-	display: none;
+.orbit-next,
+.orbit-timer {
+	visibility: hidden;
 }
 
 .orbit-bullets-container {
@@ -14,7 +30,7 @@
 }
 
 #slider {
-	max-width: 90rem;
+	max-width: 80rem;
 }
 
 .slider {
