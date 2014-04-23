@@ -8,9 +8,8 @@
 
 .orbit-bullets-container {
 	position: absolute;
-	background: red;
 	top: 91%;
-	left: 50%;
+	left: 45%;
 	z-index: 999;
 }
 
@@ -20,4 +19,18 @@
 
 .slider {
 	padding: 0;
+}
+
+.orbit-bullets li {
+	margin-right: 20px;
+}
+
+.orbit-bullets li,
+.orbit-bullets li.active {
+background: white;
+}
+
+.orbit-bullets li.active {
+	border: 2px solid white;
+	background: transparent;
 }
