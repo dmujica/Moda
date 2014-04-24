@@ -2270,7 +2270,9 @@ div.switch {
     position: relative; }
     .orbit-container .orbit-slides-container img {
       display: block;
-      max-width: 100%; }
+      width: 100%; 
+      vertical-align: top;
+    }
     .orbit-container .orbit-slides-container > * {
       position: absolute;
       top: 0;
@@ -2423,7 +2425,7 @@ div.switch {
     display: inherit; }
   .touch .orbit-bullets {
     display: block; } }
-@media only screen and (max-width: 40em) {
+@media only screen and (max-width: 1360px) {
   .orbit-stack-on-small .orbit-slides-container {
     height: auto !important; }
   .orbit-stack-on-small .orbit-slides-container > * {
