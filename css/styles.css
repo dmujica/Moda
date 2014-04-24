@@ -20,16 +20,24 @@ body {
 
 .nav {
 	position: absolute;
-	background: red;
+	margin-left: 10rem;
+	top: 9.25%;
 }
 
 .nav li {
 	text-align: center;
-	font-family: "proxima-nova";
+	font-weight: 700;
+	font-size: small;
+	font-family: "proxima-nova",sans-serif;
+	font-style: normal;
 	display: inline;
 	text-decoration: none;
-	padding: 20px;
+	padding: 50px;
 }	
+
+.nav li:nth-child(3) {
+	padding-left: 200px;
+}
 
 .nav a {
 	color: black;
@@ -48,4 +56,18 @@ body {
 	padding: 0;
 }
 
+/*Middle bar*/
 
+.mid-bar {
+	background: rgb(232,238,239);
+	text-align: center;
+}
+
+.learn-more {
+	position: absolute;
+	background: rgb(74,109,113);
+}
+
+.learn-more:hover {
+	background: rgb(63,93,97);
+}
