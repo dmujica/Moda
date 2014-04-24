@@ -59,6 +59,7 @@ body {
 /*Middle bar*/
 
 .mid-bar {
+	position: relative;
 	background: rgb(232,238,239);
 	text-align: center;
 }
@@ -66,8 +67,18 @@ body {
 .learn-more {
 	position: absolute;
 	background: rgb(74,109,113);
+	left: 45%;
+	top: 80%;
 }
 
 .learn-more:hover {
 	background: rgb(63,93,97);
+}
+
+
+/*Gallery*/
+
+.gallery {
+	margin-top: 58px;
+	margin-left: 20px;
 }
