@@ -12,49 +12,58 @@
     <script src="js/vendor/modernizr.js"></script>
   </head>
   <body>
-    <div class="container"><!-- Beginning Container Div -->
-    <!-- Main Nav -->
-    <div class="row header">
-      <div class="topbar"></div>
-      <div class="menu">
-        <div class="inner">
-          <div class="outer-bx-lft">
-            <div class="inner-bx-lft"></div>
-          </div>
-          <div class="outer-bx-rt">
-            <div class="inner-bx-rt"></div>
-          </div>
-          <div class="halfcircle"></div>
-          <a href="#">HOME</a>
-          <a href="#">PORTFOLIO</a>
-          <div class="logo"><img src="img/logo.png" alt=""></div>
-          <a href="#">ABOUT</a>
-          <a href="#">CONTACT</a>
+    <div class="container full-width"><!-- Beginning Container Div -->
+    <!-- Black Bar -->
+      <div class="row full-width">
+        <div class="columns large-12 full-width">
+          <div class="black-bar"></div>
         </div>
       </div>
+    <!-- End Black Bar -->
+    <!-- Main Nav -->
+    <div class="row header full-width">
+      <div class="menu columns large-12 full-width">
+        <div class="inner">
+            <div class="outer-bx-lft">
+              <div class="inner-bx-lft">
+                <a href="#">HOME</a>
+                <a href="#">PORTFOLIO</a>
+              </div>
+            </div>
+              <div class="logo"><img src="img/logo.png" alt=""></div>
+            <div class="outer-bx-rt">
+              <div class="inner-bx-rt">
+                <a href="#">ABOUT</a>
+                <a href="#">CONTACT</a>
+              </div>
+            </div>
+                    
+          
+      </div>
+    </div>
     <!-- End Nav -->
     <!-- Orbit Slider -->
-      <div class="orbit-container slider"id="slider">
+      <div class="orbit-container slider full-width"id="slider">
         <ul class="example-orbit" data-orbit>
           <li>
-            <img src="img/deer.jpg" alt="slide 1" />
+            <img src="img/deer.jpg" alt="slide 1" class="slider-img" />
           </li>
           <li class="active">
-            <img src="img/dock.jpg" alt="slide 2" /> 
+            <img src="img/dock.jpg" alt="slide 2" class="slider-img" /> 
           </li>
           <li>
-            <img src="img/hills.jpg" alt="slide 3" />
+            <img src="img/hills.jpg" alt="slide 3" class="slider-img"/>
           </li>
           <li>
-            <img src="img/mountain.jpg" alt="slide 3" />
+            <img src="img/mountain.jpg" alt="slide 3" class="slider-img"/>
           </li>
         </ul>
       </div>                  
     </div>
   <!-- End Orbit Slider -->
   <!-- Middle Bar -->
-    <div class="row">
-      <div class="columns large-12 mid-bar">
+    <div class="row full-width">
+      <div class="columns large-12 mid-bar full-width">
         <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, atque, suscipit dolores aliquam quidem.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, atque.</p>
         <a href="#" class="small button learn-more">Learn More</a>
@@ -62,8 +71,8 @@
     </div>
   <!-- End Middle Bar -->
   <!-- Gallery -->
-  <div class="row">
-    <div class="columns large-12 gallery">
+  <div class="row full-width">
+    <div class="columns large-12 gallery full-width">
       <ul class="small-block-grid-3">
         <li><img src="http://placehold.it/300x220" alt=""></li>
         <li><img src="http://placehold.it/300x220" alt=""></li>
@@ -72,8 +81,21 @@
     </div>
   </div>
   <!-- End Gallery -->
-    
-   
+  <!-- Footer -->
+  <div class="row full-width">
+    <div class="columns large-12 full-width">
+      
+
+    </div>
+  </div>
+   <!-- End Footer -->
+  <!-- Black Bar -->
+      <div class="row full-width">
+        <div class="columns large-12 full-width">
+          <div class="black-bar"></div>
+        </div>
+      </div>
+  <!-- End Black Bar -->
    </div>   <!--End of Container Div-->
     <script src="js/vendor/jquery.js"></script>
     <script src="js/foundation.min.js"></script>

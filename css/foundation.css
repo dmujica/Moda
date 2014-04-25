@@ -127,7 +127,7 @@ select {
   margin-right: auto;
   margin-top: 0;
   margin-bottom: 0;
-  max-width: 100%;
+  max-width: 62.5rem;
   *zoom: 1; }
   .row:before, .row:after {
     content: " ";
@@ -145,8 +145,8 @@ select {
     margin-right: 0; }
   .row .row {
     width: auto;
-    margin-left: 0;
-    margin-right: 0;
+    margin-left: -0.9375rem;
+    margin-right: -0.9375rem;
     margin-top: 0;
     margin-bottom: 0;
     max-width: none;
@@ -170,8 +170,8 @@ select {
 .column,
 .columns {
   position: relative;
-  padding-left: 0;
-  padding-right: 0;
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem;
   width: 100%;
   float: left; }
 
@@ -2270,9 +2270,7 @@ div.switch {
     position: relative; }
     .orbit-container .orbit-slides-container img {
       display: block;
-      width: 100%; 
-      vertical-align: top;
-    }
+      max-width: 100%; }
     .orbit-container .orbit-slides-container > * {
       position: absolute;
       top: 0;
@@ -2289,7 +2287,6 @@ div.switch {
         padding: 0.625rem 0.875rem;
         font-size: 0.875rem; }
   .orbit-container .orbit-slide-number {
-    display: none;
     position: absolute;
     top: 10px;
     left: 10px;
@@ -2301,7 +2298,6 @@ div.switch {
       font-weight: 700;
       padding: 0.3125rem; }
   .orbit-container .orbit-timer {
-    display: none;
     position: absolute;
     top: 12px;
     right: 10px;
@@ -2340,7 +2336,6 @@ div.switch {
     display: block; }
   .orbit-container .orbit-prev,
   .orbit-container .orbit-next {
-    display: none;
     position: absolute;
     top: 45%;
     margin-top: -25px;
@@ -2383,10 +2378,6 @@ div.switch {
       border-left-color: white; }
 
 .orbit-bullets-container {
-  position: absolute;
-  top: 91%;
-  left: 45%;
-  z-index: 999;
   text-align: center; }
 
 .orbit-bullets {
@@ -2401,15 +2392,13 @@ div.switch {
     display: inline-block;
     width: 0.5625rem;
     height: 0.5625rem;
-    background: #fff;
+    background: #cccccc;
     float: none;
-    margin-right: 20px;
+    margin-right: 6px;
     -webkit-border-radius: 1000px;
     border-radius: 1000px; }
     .orbit-bullets li.active {
-      border: 2px solid white;
-      background: transparent;
-       }
+      background: #999999; }
     .orbit-bullets li:last-child {
       margin-right: 0; }
 
@@ -2425,7 +2414,7 @@ div.switch {
     display: inherit; }
   .touch .orbit-bullets {
     display: block; } }
-@media only screen and (max-width: 1360px) {
+@media only screen and (max-width: 40em) {
   .orbit-stack-on-small .orbit-slides-container {
     height: auto !important; }
   .orbit-stack-on-small .orbit-slides-container > * {
@@ -3941,10 +3930,10 @@ form {
 
 /* Using forms within rows, we need to set some defaults */
 form .row .row {
-  margin: 0; }
+  margin: 0 -0.5rem; }
   form .row .row .column,
   form .row .row .columns {
-    padding: 0; }
+    padding: 0 0.5rem; }
   form .row .row.collapse {
     margin: 0; }
     form .row .row.collapse .column,
@@ -3959,7 +3948,7 @@ form .row input.column,
 form .row input.columns,
 form .row textarea.column,
 form .row textarea.columns {
-  padding-left: 0; }
+  padding-left: 0.5rem; }
 
 /* Label Styles */
 label {

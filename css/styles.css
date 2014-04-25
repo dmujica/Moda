@@ -1,23 +1,30 @@
 /*Global*/
 body {
 	background: url(../img/bg.jpg);
-	max-width: 1360px;
 }
 
 .container {
-	max-width: 1360px;
 	margin: 0 auto;
+}
+
+.full-width {
+	margin: 0 auto;
+	max-width: 100%;
+	text-align: center;
+	padding: 0;
+}
+
+
+
+/*menu*/
+.black-bar {
+	width: 100%;
+	height: 30px;
+	background:rgba(11,11,11,1);
 }
 
 .header {
 	position: relative;
-}
-
-/*menu*/
-.topbar {
-	width: 100%
-	height: 30px;
-	rgba(11,11,11,1);
 }
 
 .menu {
@@ -91,28 +98,15 @@ body {
 	
 }
 
-.logo {
-	position: relative;
-	top: 115px;
-	display: inline-block;
-	background: rgba(255,255,255,0.3);
-	border-radius: 0 0 90px 90px;
-    -moz-border-radius: 0 0 90px 90px;
-    -webkit-border-radius: 0 0 90px 90px;
-	width: 150px;
-	height: 70px;
-}
-
 .logo img {
-	position: absolute;
-	width: 150%;
-	top: -130%;
-	left: 0%;
+	width: 17%;
+	padding-top: 18px;
 }
 
 .inner a {
 	padding: 0 50px 0 50px;
 	color: black;
+	display: inline-block;
 }
 /* Orbit Slider */
 
@@ -121,13 +115,31 @@ body {
 }
 
 #slider {
-	max-width: 100%;
+	width: 100%;
 	position: relative;
 }
 
-.slider {
-	padding: 0;
+.slider-img {
+	width: 100%;
 }
+
+.orbit-bullets-container {
+	position: absolute;
+	z-index: 99999;
+	left: 565px;
+	top: 700px;
+}
+
+.orbit-bullets li{
+	margin: 0 10px 0 10px;
+	background: rgba(11,11,11,1);
+}
+
+.orbit-bullets li.active {
+	background: transparent;
+	border: 2px solid rgba(11,11,11,1);
+}
+
 
 /*Middle bar*/
 
