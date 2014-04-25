@@ -10,7 +10,6 @@ body {
 .full-width {
 	margin: 0 auto;
 	max-width: 100%;
-	text-align: center;
 	padding: 0;
 }
 
@@ -44,63 +43,57 @@ body {
 }
 
 .inner {
-	position: relative;
 	width: 80%;
 	margin 0 auto;
 	display: inline-block;
+	clear: both;
+	margin-top: 20px;
 }
 
 .outer-bx-lft {
-	border-bottom: 1px solid black;
-	border-left: 1px solid black;
-	border-top: 1px solid black;
+	border-bottom: 2px solid black;
+	border-left: 2px solid black;
+	border-top: 2px solid black;
 	width: 37%;
-	position: absolute;
-	top: 37px;
+	float: left;
 	height: 53px;
-	z-index: 9999;
-	left:0;
 }
 
 .inner-bx-lft {
-	border-bottom: 1.5px solid black;
-	border-left: 1.5px solid black;
-	border-top: 1.5px solid black;
+	border-bottom: 2px solid black;
+	border-left: 2px solid black;
+	border-top: 2px solid black;
 	width: 104%;
-	position: absolute;
-	top: 6px;
 	height: 38px;
-	z-index: 9999;
-	
+	margin-left: -15px;
+	margin-top: 5px;
 }
 
 .outer-bx-rt {
-	border-bottom: 1px solid black;
-	border-right: 1px solid black;
-	border-top: 1px solid black;
+	border-bottom: 2px solid black;
+	border-right: 2px solid black;
+	border-top: 2px solid black;
 	width: 37%;
-	position: absolute;
-	top: 37px;
+	float: right;
 	height: 53px;
-	z-index: 9999;
-	right:0;
 }
 
 .inner-bx-rt {
-	border-bottom: 1.5px solid black;
-	border-right: 1.5px solid black;
-	border-top: 1.5px solid black;
+	border-bottom: 2px solid black;
+	border-right: 2px solid black;
+	border-top: 2px solid black;
 	width: 104%;
-	position: absolute;
-	top: 6px;
 	height: 38px;
-	z-index: 9999;
-	
+	margin-top: 5px;
+}
+
+.logo {
+	display: inline-block;
+	width: 17%;
 }
 
 .logo img {
-	width: 17%;
-	padding-top: 18px;
+	width: 100%;
 }
 
 .inner a {
