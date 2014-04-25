@@ -92,7 +92,7 @@ body {
 .logo {
 	display: inline-block;
 	width: 12%;
-	margin-top: -6px;
+	margin-top: -.75%;
 }
 
 .logo img {
@@ -100,7 +100,7 @@ body {
 }
 
 .inner a {
-	padding: 0 50px 0 50px;
+	padding: 0 8% 0 8%;
 	color: black;
 	display: inline-block;
 	margin-top: 10px;
