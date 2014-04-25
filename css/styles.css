@@ -30,7 +30,7 @@ body {
 .menu {
 	position: absolute;
 	width: 100%;
-	height: 115px;
+	height: 86px;
 	background: rgba(255,255,255,0.3);
 	z-index: 9;
 	top: 0;
@@ -109,6 +109,13 @@ body {
 	display: inline-block;
 }
 /* Orbit Slider */
+
+.orbit-prev,
+.orbit-next,
+.orbit-timer,
+.orbit-slide-number {
+	display: none;
+}
 
 .orbit-container .orbit-slides-container {
 	height: 674px;
