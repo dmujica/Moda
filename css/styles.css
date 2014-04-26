@@ -54,7 +54,7 @@ body {
 	border-bottom: 2px solid black;
 	border-left: 2px solid black;
 	border-top: 2px solid black;
-	width: 42%;
+	width: 41%;
 	float: left;
 	height: 53px;
 	margin-top: 10px;
@@ -74,7 +74,7 @@ body {
 	border-bottom: 2px solid black;
 	border-right: 2px solid black;
 	border-top: 2px solid black;
-	width: 42%;
+	width: 41%;
 	float: right;
 	height: 53px;
 	margin-top: 10px;
@@ -91,8 +91,8 @@ body {
 
 .logo {
 	display: inline-block;
-	width: 12%;
-	margin-top: -.75%;
+	width: 15%;
+	margin-top: -0.65%;
 }
 
 .logo img {
@@ -100,6 +100,7 @@ body {
 }
 
 .inner a {
+	font-family: "proxima-nova";
 	padding: 0 8% 0 8%;
 	color: black;
 	display: inline-block;
@@ -173,4 +174,5 @@ body {
 
 .gallery {
 	margin-top: 58px;
+	padding-left: 3%; 
 }
