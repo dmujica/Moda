@@ -99,7 +99,9 @@ body {
 }
 
 .inner a {
-	font-family: "proxima-nova";
+	font-family: "proxima-nova",sans-serif;
+	font-style: normal;
+	font-weight: 700;
 	padding: 0 8% 0 8%;
 	color: black;
 	display: inline-block;
@@ -130,8 +132,8 @@ body {
 .orbit-bullets-container {
 	position: absolute;
 	z-index: 99999;
-	left: 565px;
-	top: 700px;
+	left: 45%;
+	top: 90%;
 }
 
 .orbit-bullets li{
@@ -153,15 +155,28 @@ body {
 	text-align: center;
 }
 
+.mid-bar h3 {
+	font-family: "proxima-nova",sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	padding-top: 1%;
+}
+
+.mid-bar p {
+	font-family: "proxima-nova",sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	padding: 0 20% 2% 20%;
+}
+
 .learn-more {
 	position: absolute;
 	background: rgb(74,109,113);
 	left: 45%;
 	top: 80%;
-}
-
-.button {
-	padding: 0 2.75rem 0 2.75rem;
+	font-family: "proxima-nova",sans-serif;
+	font-style: normal;
+	font-weight: 700;
 }
 
 .learn-more:hover {
@@ -176,12 +191,27 @@ body {
 	text-align: center;
 }
 
+.gallery h6 {
+	font-family: "proxima-nova",sans-serif;
+	font-style: normal;
+	font-weight: 700;
+}
+
 /*Footer*/
 
 .footer {
 	margin: 0 auto;
 	text-align: center;
 	margin-top: 5%;
+	font-family: "proxima-nova",sans-serif;
+	font-style: normal;
+	font-weight: 400;
+}
+
+.footer h5 {
+	font-family: "proxima-nova",sans-serif;
+	font-style: normal;
+	font-weight: 400;
 }
 
 .footer li {
