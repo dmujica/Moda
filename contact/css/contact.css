@@ -4,3 +4,10 @@
 .menu img {
 	width: 100%;
 }
+
+#connect {
+	width: 75%;
+	position: absolute;
+	top: 38%;
+	left: 13%;
+}
