@@ -70,5 +70,15 @@ textarea:active {
 	margin-top: 1%;
 }
 
+.senddiv {
+	text-align: center;
+}
 
+.sendbtn {
+	background: rgb(74,109,113);
+	padding: 15px 50px;
+}
 
+.sendbtn:hover {
+	background: rgb(63,93,97);
+}
