@@ -1,6 +1,7 @@
 .menu {
 	position: relative;
 }
+
 .menu img {
 	width: 100%;
 }
@@ -8,6 +9,64 @@
 #connect {
 	width: 75%;
 	position: absolute;
-	top: 38%;
+	top: 30%;
 	left: 13%;
 }
+
+.midsection {
+	position: relative;
+	text-align: center;
+}
+
+.midsection h3 {
+	font-family: "proxima-nova",sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	padding-top: 1%;
+}
+
+.midsection p {
+	font-family: "proxima-nova",sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	padding: 0 20% 2% 20%;
+}
+
+label,
+input, 
+textarea{
+	font-family: "proxima-nova",sans-serif;
+	font-style: normal;
+	font-weight: 700;
+}
+
+#email {
+	float: left;
+}
+
+form {
+	margin-left: 10%;
+}
+
+textarea {
+	padding-bottom: 30%;
+	background: rgba(240,240,240,1);
+	border: none;
+	box-shadow: none;
+	resize: none;
+	
+}
+
+textarea:active {
+	box-shadow: none;
+}
+
+#inputstyle {
+	padding-bottom: 15%;
+	background: rgba(240,240,240,1);
+	border: none;
+	box-shadow: none;
+}
+
+
+
