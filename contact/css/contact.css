@@ -38,6 +38,7 @@ textarea{
 	font-family: "proxima-nova",sans-serif;
 	font-style: normal;
 	font-weight: 700;
+	color: rgba(11,11,11,1);
 }
 
 #email {
@@ -54,7 +55,7 @@ textarea {
 	border: none;
 	box-shadow: none;
 	resize: none;
-	
+	margin-top: 1%;	
 }
 
 textarea:active {
@@ -66,6 +67,7 @@ textarea:active {
 	background: rgba(240,240,240,1);
 	border: none;
 	box-shadow: none;
+	margin-top: 1%;
 }
 
 
