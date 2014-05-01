@@ -55,7 +55,8 @@ textarea {
 	border: none;
 	box-shadow: none;
 	resize: none;
-	margin-top: 1%;	
+	margin-top: 1%;
+	overflow: hidden;	
 }
 
 textarea:active {
