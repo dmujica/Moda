@@ -1,3 +1,29 @@
+
+
+@font-face {
+    font-family: 'proxima_nova_rgbold';
+    src: url('../fonts/proxima_nova_bold-webfont.eot');
+    src: url('../fonts/proxima_nova_bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/proxima_nova_bold-webfont.woff') format('woff'),
+         url('../fonts/proxima_nova_bold-webfont.ttf') format('truetype'),
+         url('../fonts/proxima_nova_bold-webfont.svg#proxima_nova_rgbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'proxima_nova_rgregular';
+    src: url('../fonts/proxima_nova_reg-webfont.eot');
+    src: url('../fonts/proxima_nova_reg-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/proxima_nova_reg-webfont.woff') format('woff'),
+         url('../fonts/proxima_nova_reg-webfont.ttf') format('truetype'),
+         url('../fonts/proxima_nova_reg-webfont.svg#proxima_nova_rgregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 /*Global*/
 body {
 	background: url(../img/bg.jpg);
@@ -95,9 +121,7 @@ body {
 }
 
 .inner a {
-	font-family: "proxima-nova",sans-serif;
-	font-style: normal;
-	font-weight: 700;
+	font-family: 'proxima_nova_rgbold';
 	padding: 0 8% 0 8%;
 	color: black;
 	display: inline-block;
@@ -152,16 +176,12 @@ body {
 }
 
 .mid-bar h3 {
-	font-family: "proxima-nova",sans-serif;
-	font-style: normal;
-	font-weight: 700;
+	font-family: 'proxima_nova_rgbold';
 	padding-top: 1%;
 }
 
 .mid-bar p {
-	font-family: "proxima-nova",sans-serif;
-	font-style: normal;
-	font-weight: 400;
+	font-family: 'proxima_nova_rgregular';
 	padding: 0 20% 2% 20%;
 }
 
@@ -170,9 +190,7 @@ body {
 	background: rgb(74,109,113);
 	left: 45%;
 	top: 80%;
-	font-family: "proxima-nova",sans-serif;
-	font-style: normal;
-	font-weight: 700;
+	font-family: 'proxima_nova_rgbold';
 }
 
 .learn-more:hover {
@@ -188,9 +206,7 @@ body {
 }
 
 .gallery h6 {
-	font-family: "proxima-nova",sans-serif;
-	font-style: normal;
-	font-weight: 700;
+	font-family: 'proxima_nova_rgbold';
 }
 
 /*Footer*/
@@ -199,15 +215,11 @@ body {
 	margin: 0 auto;
 	text-align: center;
 	margin-top: 5%;
-	font-family: "proxima-nova",sans-serif;
-	font-style: normal;
-	font-weight: 400;
+	font-family: 'proxima_nova_rgregular';
 }
 
 .footer h5 {
-	font-family: "proxima-nova",sans-serif;
-	font-style: normal;
-	font-weight: 400;
+	font-family: 'proxima_nova_rgregular';
 }
 
 .footer li {
