@@ -10152,44 +10152,6 @@ th.hide-for-touch {
   font-family: 'proxima_nova_rgregular';
   padding: 0 20% 2% 20%; }
 
-label, input, textarea {
-  font-family: 'proxima_nova_rgbold';
-  color: #0b0b0b; }
-
-#email {
-  float: left; }
-
-form {
-  margin-left: 10%; }
-
-textarea {
-  padding-bottom: 30%;
-  background: #f0f0f0;
-  border: none;
-  box-shadow: none;
-  resize: none;
-  margin-top: 1%; }
-
-textarea:active {
-  box-shadow: none; }
-
-#inputstyle {
-  padding-bottom: 15%;
-  background: #f0f0f0;
-  border: none;
-  box-shadow: none;
-  margin-top: 1%; }
-
-.senddiv {
-  text-align: center; }
-
-.sendbtn {
-  background: #4a6d71;
-  padding: 15px 50px; }
-
-.sendbtn:hover {
-  background: #3f5d61; }
-
 @font-face {
   font-family: 'proxima_nova_rgbold';
   src: url('../fonts/proxima_nova_bold-webfont.eot');

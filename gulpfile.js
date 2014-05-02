@@ -61,7 +61,16 @@ gulp.task('fonts', function() {
     .pipe( gulp.dest( './build/fonts/' ) );
 });
 
+// Watch files
+gulp.task('watch', function(event) {
+    gulp.watch('./src/*.html', ['htmlpage']);
+    gulp.watch('./src/scss/*.scss', ['sass']);
+    gulp.watch('./src/img/**/*', ['imagemin']);
+    gulp.watch('./src/fonts/**/*', ['fonts']);
+    gulp.watch('./src/js/*.js', ['js']);
+});
+
 
 // default gulp task
-gulp.task('default', ['imagemin', 'htmlpage', 'js', 'sass', 'fonts'], function() {
+gulp.task('default', ['imagemin', 'htmlpage', 'js', 'sass', 'fonts', 'watch'], function() {
 });
