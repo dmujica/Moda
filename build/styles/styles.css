@@ -10125,6 +10125,10 @@ th.hide-for-touch {
 .touch th.show-for-touch {
   display: table-cell !important; }
 
+.arrow {
+  width: 9%;
+  text-align: center; }
+
 .thiswrk img {
   width: 100%; }
 
